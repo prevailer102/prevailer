@@ -1,0 +1,155 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.second-top {
+  background: url(/image/about__hero.jpg);
+  object-fit: contain;
+  width: 100%;
+  object-position: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  /* align-items: center; */
+}
+.pic-top {
+  width:100%;
+  height: auto;
+}
+
+.second-top h2, .second-top h3 {
+  color: white;
+  width: 60%;
+  margin-left: 15%;
+  font-size: 24px;
+  
+}
+.about-us {
+  color:  rgb(3, 191, 75);
+}
+.second-top h2 {
+  font-size: 60px;
+}
+.second-top h3 {
+  margin-top: -25px;
+}
+.mission, .vision {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  color:  rgb(3, 191, 75);;
+ 
+}
+.vision {
+  margin-top: -10px;
+}
+.mission h3, .mission p, .vision h3, .vision p {
+  width: 50%;
+  font-size: 100%;
+}
+.mission h3, .vision h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.mission p, .vision p {
+  margin-top: -30px;
+  line-height: 30px;
+  text-align: center;
+ 
+}
+.image-mission img {
+  width: 50%;
+
+}
+.image-mission {
+  display: flex;
+  justify-content: center;
+}
+.executives {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.executives h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.executives hr {
+  width: 20%;
+  margin-top: -3px;
+  border: 2px solid #03bf4b;
+
+}
+.first-picture {
+  display: flex;
+  justify-content: center;
+  
+}
+.first-picture img{
+  width: 30%;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: 70px;
+  position: relative; /*makes it sit on top */
+  z-index: 1;
+  box-shadow:  0 0 10px rgba(0, 0, 0, 0.20);
+  
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.executives-information{
+  background-color: white;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  padding-bottom: 20px;
+  border-radius: 20px;
+  padding-top: 10px;
+  position: relative;
+  overflow: hidden;
+  
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+  
+}
+.executives-information::before {
+  content: ''; /* makes the half part visible */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgb(3, 191, 75);
+  border-radius: 0 0 80% 80%; /*border for the bottom */
+}
+.full-name {
+  font-size: 20px;
+  width: 40%;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: -5px;
+}
+.position {
+  margin-top: 20px;
+}
+.whole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  row-gap: 50px;
+  margin-bottom: 0px;
+  background: url(/image/moo_bg_footer.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+ 
+}
+
