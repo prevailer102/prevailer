@@ -97,7 +97,7 @@ minusButton.addEventListener( 'click', function(){
           </div>
           <div>
             <p>Amount to invest</p>
-            <input type="number" class="number">
+            <input type="number" class="js-text">
           </div>
             </div>
           
